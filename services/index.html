@@ -13,6 +13,7 @@
   <link rel="icon" href="/favicon.ico" sizes="32x32">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
   <link rel="preload" href="/assets/fonts/fraunces-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/fonts/mukta-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/css/style.css">
@@ -23,10 +24,10 @@
   <meta property="og:title" content="Mehndi Services &amp; Starting Prices | Preeti Henna Artist">
   <meta property="og:description" content="Starting prices for bridal, Arabic, traditional, festival and party mehndi in Sector 91, Faridabad.">
   <meta property="og:url" content="https://preetihennaartist.in/services/">
-  <meta property="og:image" content="https://preetihennaartist.in/assets/img/og-default.png">
+  <meta property="og:image" content="https://preetihennaartist.in/assets/brand/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Preeti Henna Artist: mehndi in Sector 91, Faridabad">
+  <meta property="og:image:alt" content="Preeti Henna Artist logo: mehndi, Faridabad">
   <meta name="twitter:card" content="summary_large_image">
   <script type="application/ld+json">
   {
@@ -57,7 +58,14 @@
             { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Feet Mehndi" }, "priceSpecification": { "@type": "PriceSpecification", "minPrice": 500, "priceCurrency": "INR" } },
             { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Customized Name / Text Mehndi" }, "priceSpecification": { "@type": "PriceSpecification", "minPrice": 200, "priceCurrency": "INR" } },
             { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Glitter / Stone Work" }, "priceSpecification": { "@type": "PriceSpecification", "minPrice": 150, "priceCurrency": "INR" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Festival Mehndi" }, "priceSpecification": { "@type": "PriceSpecification", "minPrice": 100, "priceCurrency": "INR" } }
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Full Hand Mehndi" }, "priceSpecification": { "@type": "PriceSpecification", "minPrice": 500, "priceCurrency": "INR" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Indian Traditional & Rajasthani Mehndi" }, "priceSpecification": { "@type": "PriceSpecification", "minPrice": 200, "priceCurrency": "INR" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Festival Mehndi" }, "priceSpecification": { "@type": "PriceSpecification", "minPrice": 100, "priceCurrency": "INR" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Karwa Chauth Mehndi" }, "priceSpecification": { "@type": "PriceSpecification", "minPrice": 100, "priceCurrency": "INR" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Raksha Bandhan Mehndi" }, "priceSpecification": { "@type": "PriceSpecification", "minPrice": 100, "priceCurrency": "INR" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Party Mehndi" }, "priceSpecification": { "@type": "PriceSpecification", "minPrice": 150, "priceCurrency": "INR" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mehndi for Events (per guest design)" }, "priceSpecification": { "@type": "PriceSpecification", "minPrice": 100, "priceCurrency": "INR" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Basic Mehndi Class" }, "priceSpecification": { "@type": "PriceSpecification", "minPrice": 1500, "priceCurrency": "INR" } }
           ]
         }
       },
@@ -78,8 +86,7 @@
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="brand" href="/">
-        <span class="brand-name">Preeti Henna Artist</span>
-        <span class="brand-sub">Mehndi · Sector 91, Faridabad</span>
+        <img class="brand-logo" src="/assets/brand/logo-primary.svg" alt="Preeti Henna Artist home" width="1561" height="640">
       </a>
       <button class="menu-toggle" type="button" popovertarget="site-nav" aria-controls="site-nav">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
@@ -119,7 +126,6 @@
     <section class="section" aria-labelledby="rates-title">
       <div class="wrap">
         <h2 id="rates-title" class="visually-hidden">Price list</h2>
-        <p class="small muted">Prices marked <span class="tag">Indicative</span> are estimates still being confirmed. Check the current rate when you enquire.</p>
         <div class="rate-columns">
           <section class="rate-group" aria-labelledby="g-bridal">
             <h3 id="g-bridal">Bridal &amp; engagement</h3>
@@ -150,10 +156,10 @@
                 <p class="rate-desc">A design on the palm side and the back of the hand. Ask whether your quote is for one hand or both.</p>
                 <p class="rate-meta"><a href="https://wa.me/919354621909?text=Hello%20Preeti%20Henna%20Artist%2C%20I%20would%20like%20to%20ask%20about%20Palm%20Mehndi%20(Front%20%26%20Back).%0ADate%3A%0ADesign%20ideas%3A" target="_blank" rel="noopener">Ask <span class="visually-hidden">about Palm Mehndi</span> on WhatsApp</a></p>
               </li>
-              <li class="rate-item" data-service="full-hand" data-status="provisional">
+              <li class="rate-item" data-service="full-hand">
                 <div class="rate-head"><h4 class="rate-name">Full Hand Mehndi</h4></div>
                 <p class="rate-price"><span class="from">from</span> ₹500</p>
-                <p class="rate-desc">A design that covers the whole hand. <span class="tag">Indicative</span></p>
+                <p class="rate-desc">A design that covers the whole hand.</p>
                 <p class="rate-meta"><a href="https://wa.me/919354621909?text=Hello%20Preeti%20Henna%20Artist%2C%20I%20would%20like%20to%20ask%20about%20Full%20Hand%20Mehndi.%0ADate%3A%0ADesign%20ideas%3A" target="_blank" rel="noopener">Ask <span class="visually-hidden">about Full Hand Mehndi</span> on WhatsApp</a></p>
               </li>
               <li class="rate-item" data-service="feet">
@@ -175,10 +181,10 @@
                 <p class="rate-desc">Bold, flowing florals with open space between motifs.</p>
                 <p class="rate-meta"><a href="https://wa.me/919354621909?text=Hello%20Preeti%20Henna%20Artist%2C%20I%20would%20like%20to%20ask%20about%20Arabic%20Mehndi.%0ADate%3A%0ADesign%20ideas%3A" target="_blank" rel="noopener">Ask <span class="visually-hidden">about Arabic Mehndi</span> on WhatsApp</a></p>
               </li>
-              <li class="rate-item" data-service="traditional" data-status="provisional">
+              <li class="rate-item" data-service="traditional">
                 <div class="rate-head"><h4 class="rate-name">Indian Traditional &amp; Rajasthani</h4></div>
                 <p class="rate-price"><span class="from">from</span> ₹200</p>
-                <p class="rate-desc">Dense, fine-line traditional patterns, including Rajasthani styles. <span class="tag">Indicative</span></p>
+                <p class="rate-desc">Dense, fine-line traditional patterns, including Rajasthani styles.</p>
                 <p class="rate-meta"><a href="https://wa.me/919354621909?text=Hello%20Preeti%20Henna%20Artist%2C%20I%20would%20like%20to%20ask%20about%20Indian%20Traditional%20%2F%20Rajasthani%20Mehndi.%0ADate%3A%0ADesign%20ideas%3A" target="_blank" rel="noopener">Ask <span class="visually-hidden">about Indian Traditional and Rajasthani Mehndi</span> on WhatsApp</a></p>
               </li>
             </ul>
@@ -213,16 +219,16 @@
                 <p class="rate-desc">Simple designs for Teej, Diwali, Eid and other festivals.</p>
                 <p class="rate-meta"><a href="https://wa.me/919354621909?text=Hello%20Preeti%20Henna%20Artist%2C%20I%20would%20like%20to%20ask%20about%20Festival%20Mehndi.%0ADate%3A%0ADesign%20ideas%3A" target="_blank" rel="noopener">Ask <span class="visually-hidden">about Festival Mehndi</span> on WhatsApp</a></p>
               </li>
-              <li class="rate-item" data-service="karwa" data-status="provisional">
+              <li class="rate-item" data-service="karwa">
                 <div class="rate-head"><h4 class="rate-name">Karwa Chauth Mehndi</h4></div>
                 <p class="rate-price"><span class="from">from</span> ₹100</p>
-                <p class="rate-desc">Designs for Karwa Chauth, from simple to detailed. <span class="tag">Indicative</span></p>
+                <p class="rate-desc">Designs for Karwa Chauth, from simple to detailed.</p>
                 <p class="rate-meta"><a href="https://wa.me/919354621909?text=Hello%20Preeti%20Henna%20Artist%2C%20I%20would%20like%20to%20ask%20about%20Karwa%20Chauth%20Mehndi.%0ADate%3A%0ADesign%20ideas%3A" target="_blank" rel="noopener">Ask <span class="visually-hidden">about Karwa Chauth Mehndi</span> on WhatsApp</a></p>
               </li>
-              <li class="rate-item" data-service="rakhi" data-status="provisional">
+              <li class="rate-item" data-service="rakhi">
                 <div class="rate-head"><h4 class="rate-name">Raksha Bandhan Mehndi</h4></div>
                 <p class="rate-price"><span class="from">from</span> ₹100</p>
-                <p class="rate-desc">Mehndi for Raksha Bandhan. <span class="tag">Indicative</span></p>
+                <p class="rate-desc">Mehndi for Raksha Bandhan.</p>
                 <p class="rate-meta"><a href="https://wa.me/919354621909?text=Hello%20Preeti%20Henna%20Artist%2C%20I%20would%20like%20to%20ask%20about%20Raksha%20Bandhan%20Mehndi.%0ADate%3A%0ADesign%20ideas%3A" target="_blank" rel="noopener">Ask <span class="visually-hidden">about Raksha Bandhan Mehndi</span> on WhatsApp</a></p>
               </li>
             </ul>
@@ -232,22 +238,22 @@
             <h3 id="g-events">Parties, events &amp; classes</h3>
             <p>For groups, the total depends on the number of people and the designs chosen.</p>
             <ul class="rate-list">
-              <li class="rate-item" data-service="party" data-status="provisional">
+              <li class="rate-item" data-service="party">
                 <div class="rate-head"><h4 class="rate-name">Party Mehndi</h4></div>
                 <p class="rate-price"><span class="from">from</span> ₹150</p>
-                <p class="rate-desc">Quick, lighter designs for parties and get-togethers. <span class="tag">Indicative</span></p>
+                <p class="rate-desc">Quick, lighter designs for parties and get-togethers.</p>
                 <p class="rate-meta"><a href="https://wa.me/919354621909?text=Hello%20Preeti%20Henna%20Artist%2C%20I%20would%20like%20to%20ask%20about%20Party%20Mehndi.%0ADate%3A%0ADesign%20ideas%3A" target="_blank" rel="noopener">Ask <span class="visually-hidden">about Party Mehndi</span> on WhatsApp</a></p>
               </li>
-              <li class="rate-item" data-service="events" data-status="provisional">
+              <li class="rate-item" data-service="events">
                 <div class="rate-head"><h4 class="rate-name">Mehndi for Events</h4></div>
                 <p class="rate-price"><span class="from">from</span> ₹100</p>
-                <p class="rate-desc">Simple guest designs from ₹100 each. This is not a price for the whole event; send the number of guests, date and place for a quote. <span class="tag">Indicative</span></p>
+                <p class="rate-desc">Simple guest designs from ₹100 each. This is not a price for the whole event; send the number of guests, date and place for a quote.</p>
                 <p class="rate-meta"><a href="https://wa.me/919354621909?text=Hello%20Preeti%20Henna%20Artist%2C%20I%20would%20like%20to%20ask%20about%20mehndi%20for%20an%20event.%0ADate%3A%0ANumber%20of%20guests%3A%0APlace%3A" target="_blank" rel="noopener">Ask <span class="visually-hidden">about event mehndi</span> on WhatsApp</a></p>
               </li>
-              <li class="rate-item" data-service="classes" data-status="provisional">
+              <li class="rate-item" data-service="classes">
                 <div class="rate-head"><h4 class="rate-name">Mehndi Classes</h4></div>
                 <p class="rate-price"><span class="from">from</span> ₹1,500</p>
-                <p class="rate-desc">Basic classes from ₹1,500. Advanced course fees depend on level and duration. <span class="tag">Indicative</span></p>
+                <p class="rate-desc">Basic classes from ₹1,500. Advanced course fees depend on level and duration.</p>
                 <p class="rate-meta"><a href="/mehndi-classes/">About the classes</a></p>
               </li>
             </ul>
@@ -320,7 +326,7 @@
           </details>
           <details>
             <summary>Can you quote for a group or an event?</summary>
-            <div class="answer"><p>Yes. Send the number of people, the date, the place and the kind of designs you have in mind. Simple guest designs start from ₹100 each <span class="tag" data-status="provisional">Indicative</span>; the total depends on the number of guests and designs.</p></div>
+            <div class="answer"><p>Yes. Send the number of people, the date, the place and the kind of designs you have in mind. Simple guest designs start from ₹100 each; the total depends on the number of guests and designs.</p></div>
           </details>
           <details>
             <summary>Is the price confirmed before the mehndi is applied?</summary>
@@ -335,7 +341,7 @@
     <div class="wrap">
       <div class="footer-grid">
         <div data-nap>
-          <p class="footer-name">Preeti Henna Artist</p>
+          <p class="footer-name"><img src="/assets/brand/logo-ivory.svg" alt="Preeti Henna Artist" width="1561" height="640"></p>
           <p class="footer-hi" lang="hi">प्रीति हिना आर्टिस्ट</p>
           <address>
             Shop No. 16, Gali No. 2, Surya Vihar Part II,<br>
